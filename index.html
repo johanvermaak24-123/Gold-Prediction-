@@ -1,4 +1,7 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05070a"><title>GOLD ORACLE — XAUUSD Prediction Engine</title><link rel="stylesheet" href="./assets/style.css"></head><body><main class="wrap">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05070a"><title>GOLD ORACLE — XAUUSD Prediction Engine</title><style>
+:root{--bg:#05070a;--panel:#0b1119;--panel2:#101824;--line:#223145;--text:#eef4ff;--muted:#8e9caf;--blue:#55a7ff;--green:#31d69b;--red:#ff5968;--yellow:#f5c85b;--purple:#ad83ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#132035 0,#06090e 36%,#030507 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:1180px;margin:auto;padding:20px 16px 80px}.top{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;padding:14px 0 18px;border-bottom:1px solid #1b2839}.eyebrow{font-size:11px;letter-spacing:.18em;color:#6faef8;font-weight:900}.top h1{font-size:34px;margin:4px 0 2px;letter-spacing:-.04em}.top p{margin:0;color:var(--muted)}.live{text-align:right;color:var(--muted);font-size:12px}.live b{color:var(--text)}.controls{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;margin:16px 0}.field{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:11px}.field label{display:block;color:var(--muted);font-size:11px;margin-bottom:5px}.field input{width:100%;background:transparent;border:0;color:white;font-size:19px;outline:none}.btn{border:0;border-radius:14px;background:linear-gradient(135deg,#176ed6,#3c9cff);color:#fff;padding:0 22px;font-weight:900;letter-spacing:.04em}.statusRow{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.statusTag{border:1px solid var(--line);background:#09101a;border-radius:999px;padding:7px 10px;color:var(--muted);font-size:11px}.tabs{display:flex;gap:8px;margin:14px 0}.tabs button{background:#0b1119;color:#93a1b5;border:1px solid var(--line);border-radius:10px;padding:9px 18px;font-weight:900}.tabs button.active{background:#176ed6;color:#fff;border-color:#3c9cff}.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:12px}.card{background:linear-gradient(180deg,rgba(15,23,34,.98),rgba(8,13,20,.98));border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.22)}.decision h2{font-size:46px;margin:6px 0}.decision h2[data-state=buy]{color:var(--green)}.decision h2[data-state=sell]{color:var(--red)}.decision h2[data-state=wait]{color:var(--yellow)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.metric,.level{background:#0a1018;border:1px solid #172538;border-radius:12px;padding:10px}.metric small,.level span,.proofGrid small{display:block;color:var(--muted);font-size:11px}.metric b,.level b{font-size:16px}.levels{display:grid;grid-template-columns:1fr 1fr;gap:8px}.warning{margin-top:12px;color:#bdc8d7;font-size:13px;line-height:1.5}.reversal{margin-top:8px;padding:8px 10px;border-radius:10px;background:#0c1420;color:#8fa7c7;font-size:12px}.section{margin-top:12px}.chartCard{padding:0;overflow:hidden}.chartHead{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line)}.chartHead small{color:var(--muted)}#chart{height:520px;min-height:360px}.chart svg{width:100%;height:100%;display:block}.empty{display:grid;place-items:center;height:100%;padding:40px;color:var(--muted);text-align:center}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.stories{display:grid;gap:8px}.story{display:block;text-decoration:none;color:inherit;padding:11px;border:1px solid #1b293b;border-radius:12px;background:#080e15}.story:hover{border-color:#315a87}.story b{display:block;margin:5px 0 3px;font-size:13px;line-height:1.4}.story small{color:var(--muted)}.storyTop{display:flex;gap:5px;flex-wrap:wrap}.pill{font-size:9px;font-weight:900;border-radius:999px;padding:3px 6px;background:#18212d}.pill.bull{color:var(--green)}.pill.bear{color:var(--red)}.pill.deep{color:var(--blue)}.pill.official{color:var(--purple)}.pill.neutral{color:var(--muted)}.proofGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.proofGrid>div{background:#090f17;border:1px solid #172538;border-radius:12px;padding:11px}.proofGrid b{display:block;font-size:21px;margin-top:3px}.mini,.muted{color:var(--muted);font-size:12px;line-height:1.5}.learnHead{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}.learnHead b{font-size:30px}.learnHead span{color:var(--muted);font-size:12px}.learnRow{display:grid;grid-template-columns:1fr auto auto;gap:10px;padding:8px 0;border-bottom:1px solid #172233;align-items:center}.learnRow small{color:var(--muted)}.outcome{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding:10px 0;border-bottom:1px solid #172233}.outcome small{grid-column:1/-1;color:var(--muted)}.good{color:var(--green);font-weight:900}.bad{color:var(--red);font-weight:900}.foot{color:#728197;font-size:11px;line-height:1.55;margin-top:16px}@media(max-width:760px){.wrap{padding:10px 10px 60px}.top{align-items:flex-start}.top h1{font-size:28px}.controls{grid-template-columns:1fr 1fr}.btn{grid-column:1/-1;height:48px}.grid,.two{grid-template-columns:1fr}.decision h2{font-size:38px}.proofGrid{grid-template-columns:1fr 1fr}#chart{height:470px}.live{display:none}.levels{grid-template-columns:1fr 1fr}.learnRow{grid-template-columns:1fr auto}.learnRow small{grid-column:1/2}.learnRow b{grid-row:1/3;grid-column:2}}
+
+</style></head><body><main class="wrap">
 <header class="top"><div><div class="eyebrow">XAUUSD · GITHUB-ONLY NEWS PREDICTION ENGINE</div><h1>GOLD ORACLE</h1><p>Deep news scan → anti-flip bias → pending order map → real outcome learning.</p></div><div class="live">Snapshot<br><b id="updated">Loading…</b></div></header>
 <section class="controls"><div class="field"><label>Current XAUUSD price</label><input id="price" type="number" step="0.01" placeholder="Live when market key is configured"></div><div class="field"><label>Your broker spread $</label><input id="spread" type="number" step="0.01" value="0.35"></div><button class="btn" id="refresh">REFRESH NOW</button></section>
 <div class="statusRow"><span class="statusTag" id="status">LOADING GITHUB SNAPSHOT…</span><span class="statusTag" id="marketStatus">MARKET FEED…</span><span class="statusTag" id="scanMeta">NEWS…</span></div>
@@ -10,4 +13,124 @@
 <section class="two section"><article class="card"><h3>Recent resolved predictions</h3><div id="outcomes"></div></article><article class="card"><h3>Protection logic</h3><p class="mini"><b>Anti-flip gate:</b> an opposite bias must survive two consecutive qualified scans before the accepted direction flips.</p><p class="mini"><b>Event deduplication:</b> repeated copies of one news event cannot fake consensus.</p><p class="mini"><b>Learning gate:</b> feature weights stay neutral until at least 12 real resolved samples exist; source weights wait for 20.</p><p class="mini"><b>Ambiguous bars:</b> if a 5-minute candle could have hit both TP and invalidation, that forecast is excluded from learning.</p></article></section>
 <section class="section card"><div class="eyebrow">DEEP NEWS SCAN</div><h3>Evidence feeding the prediction</h3><div id="news" class="stories"></div></section>
 <p class="foot"><strong>Important:</strong> GOLD ORACLE is probabilistic research software, not a guaranteed forecast. A code audit can prove calculation consistency; only real forward outcomes can measure predictive edge. Exact automated XAU/USD candles and outcome resolution require a market-data API key configured as a GitHub Actions secret. Without it, the app remains usable in manual-price news mode.</p>
-</main><script src="./assets/engine.js"></script><script src="./assets/app.js"></script></body></html>
+</main><script>window.GOLD_ORACLE_EMBEDDED_SNAPSHOT={generatedAt:new Date().toISOString(),market:{available:false,provider:'GitHub Pages',reason:'Live snapshot has not been generated yet.',bars:[],stats:{}},news:{articleCount:0,deepReadCount:0,feedSuccessCount:0,feedTotal:0,articles:[]},horizons:{'1':{evidence:{directionalScore:0,stabilizedDirectionalScore:0,confidence:0,calibratedConfidence:0,conflict:100,scoredCount:0,feedSuccessCount:0,flipBlocked:false}},'3':{evidence:{directionalScore:0,stabilizedDirectionalScore:0,confidence:0,calibratedConfidence:0,conflict:100,scoredCount:0,feedSuccessCount:0,flipBlocked:false}},'6':{evidence:{directionalScore:0,stabilizedDirectionalScore:0,confidence:0,calibratedConfidence:0,conflict:100,scoredCount:0,feedSuccessCount:0,flipBlocked:false}}},proof:{resolved:0,directionHitRate:0,entered:0,tp1PlusRate:0,stopRate:0,avgMAE:0,avgMFE:0},learning:{totalLearned:0,features:[]},recentOutcomes:[]};</script><script>
+(function (root, factory) {
+  const api = factory();
+  if (typeof module === 'object' && module.exports) module.exports = api;
+  else root.GoldOracleEngine = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+
+  function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+  function finite(v,fallback=0){ const n=Number(v); return Number.isFinite(n)?n:fallback; }
+  function round2(v){ return Math.round(v*100)/100; }
+  function wait(decision,note,extra={}){ return {decision,note,...extra}; }
+  function validPrice(v){ const n=Number(v); return Number.isFinite(n)&&n>0&&n<1e9; }
+
+  function buildPlan(input={}){
+    const data=input.data||{};
+    const price=Number(input.price);
+    const spreadRaw=Number(input.spread);
+    const hRaw=Number(input.horizon);
+    const horizon=[1,3,6].includes(hRaw)?hRaw:3;
+
+    if(!validPrice(price)) return wait('ENTER PRICE','Enter a valid current XAUUSD price first.');
+    if(!Number.isFinite(spreadRaw)||spreadRaw<0) return wait('CHECK SPREAD','Broker spread must be a valid non-negative number.');
+    if(spreadRaw>price*0.02) return wait('CHECK SPREAD','Spread is unusually large versus price. Check it before using the order map.');
+
+    const spread=spreadRaw;
+    const directionalScore=clamp(finite(data.stabilizedDirectionalScore ?? data.directionalScore,0),-100,100);
+    const dir=directionalScore/100;
+    const conf=clamp(finite(data.calibratedConfidence ?? data.confidence,0),0,100);
+    const conflict=clamp(finite(data.conflict,100),0,100);
+    const scoredCount=Math.max(0,Math.floor(finite(data.scoredCount,0)));
+    const feedSuccessCount=Math.max(0,Math.floor(finite(data.feedSuccessCount,0)));
+    const flipBlocked=Boolean(data.flipBlocked);
+    const marketVolPct=clamp(finite(data.marketVolPct,0.004),0.0005,0.03);
+
+    if(feedSuccessCount===0) return wait('WAIT','No news feeds returned successfully. No order should be created from this scan.');
+    if(flipBlocked) return wait('WAIT','Opposite news bias appeared, but the anti-flip confirmation gate has not confirmed the reversal yet.',{flipBlocked:true});
+    if(conf<48||Math.abs(dir)<0.18||conflict>72||scoredCount<4) return wait('WAIT','Evidence is not clean enough for a pending order yet.');
+
+    const horizonScale=horizon===1?0.66:horizon===6?1.48:1.0;
+    const evidenceMovePct=(0.0018+0.0044*(conf/100))*horizonScale;
+    const volMovePct=marketVolPct*Math.sqrt(horizon*12)*0.34;
+    const movePct=clamp(Math.max(evidenceMovePct,volMovePct),0.0016,horizon===6?0.018:0.012);
+    const move=price*movePct;
+    const pullback=move*clamp(0.31-conf/520,0.10,0.23)+spread*1.2;
+    const invalid=move*0.58+spread*2.1;
+
+    let plan;
+    if(dir>0){
+      const entry=price-pullback, stop=entry-invalid;
+      const tp1=entry+move*0.44, tp2=entry+move*0.80, tp3=entry+move*1.17;
+      plan={decision:'BUY LIMIT',direction:'BUY',entry,stop,tp1,tp2,tp3,low:price-move*0.58,high:price+move*1.16,
+        note:'Bullish news bias. The pending limit sits below current price to reduce chasing after a headline spike.'};
+    }else{
+      const entry=price+pullback, stop=entry+invalid;
+      const tp1=entry-move*0.44, tp2=entry-move*0.80, tp3=entry-move*1.17;
+      plan={decision:'SELL LIMIT',direction:'SELL',entry,stop,tp1,tp2,tp3,low:price-move*1.16,high:price+move*0.58,
+        note:'Bearish news bias. The pending limit sits above current price to reduce chasing after a headline drop.'};
+    }
+
+    const nums=['entry','stop','tp1','tp2','tp3','low','high'].map(k=>plan[k]);
+    if(nums.some(v=>!Number.isFinite(v)||v<=0)) return wait('WAIT','Calculation safety check failed. Verify price and spread.');
+    const buyOK=plan.decision!=='BUY LIMIT'||(plan.entry<price&&plan.stop<plan.entry&&plan.tp1>plan.entry&&plan.tp2>plan.tp1&&plan.tp3>plan.tp2);
+    const sellOK=plan.decision!=='SELL LIMIT'||(plan.entry>price&&plan.stop>plan.entry&&plan.tp1<plan.entry&&plan.tp2<plan.tp1&&plan.tp3<plan.tp2);
+    if(!buyOK||!sellOK||!(plan.low<plan.high)) return wait('WAIT','Order-map invariant check failed. No order should be placed from this scan.');
+
+    for(const k of ['entry','stop','tp1','tp2','tp3','low','high']) plan[k]=round2(plan[k]);
+    plan.horizon=horizon; plan.confidence=round2(conf); plan.directionalScore=round2(directionalScore);
+    plan.riskDistance=round2(Math.abs(plan.entry-plan.stop));
+    plan.rewardToTP1=round2(Math.abs(plan.tp1-plan.entry));
+    plan.rewardToTP3=round2(Math.abs(plan.tp3-plan.entry));
+    return plan;
+  }
+
+  function planInvariant(plan,price){
+    if(!plan||!['BUY LIMIT','SELL LIMIT','WAIT','ENTER PRICE','CHECK SPREAD'].includes(plan.decision)) return false;
+    if(plan.decision==='BUY LIMIT') return plan.entry<price&&plan.stop<plan.entry&&plan.tp1>plan.entry&&plan.tp2>plan.tp1&&plan.tp3>plan.tp2;
+    if(plan.decision==='SELL LIMIT') return plan.entry>price&&plan.stop>plan.entry&&plan.tp1<plan.entry&&plan.tp2<plan.tp1&&plan.tp3<plan.tp2;
+    return true;
+  }
+  return {buildPlan,planInvariant,clamp,finite,round2};
+});
+
+</script><script>
+'use strict';
+const $=s=>document.querySelector(s); const $$=s=>[...document.querySelectorAll(s)];
+const E=window.GoldOracleEngine; let SNAP=null; let H=3;
+const els={price:$('#price'),spread:$('#spread'),refresh:$('#refresh'),status:$('#status'),updated:$('#updated'),marketStatus:$('#marketStatus'),decision:$('#decision'),bias:$('#bias'),confidence:$('#confidence'),conflict:$('#conflict'),entry:$('#entry'),stop:$('#stop'),tp1:$('#tp1'),tp2:$('#tp2'),tp3:$('#tp3'),range:$('#range'),warning:$('#warning'),chart:$('#chart'),news:$('#news'),proof:$('#proof'),learning:$('#learning'),outcomes:$('#outcomes'),scanMeta:$('#scanMeta'),reversal:$('#reversal')};
+function esc(v=''){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function fmt(v){const n=Number(v);return Number.isFinite(n)?n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}):'—';}
+function pct(v){return Number.isFinite(Number(v))?`${Number(v).toFixed(1)}%`:'—';}
+function safeUrl(v=''){try{const u=new URL(v);return ['http:','https:'].includes(u.protocol)?u.href:'';}catch{return'';}}
+function ev(){return SNAP?.horizons?.[String(H)]?.evidence||{};}
+function plan(){const data=ev();return E.buildPlan({price:els.price.value,spread:els.spread.value,horizon:H,data});}
+async function load(){els.refresh.disabled=true;els.refresh.textContent='REFRESHING…';try{const r=await fetch(`./data/snapshot.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);SNAP=await r.json();if(SNAP.market?.available&&Number.isFinite(Number(SNAP.market.price)))els.price.value=Number(SNAP.market.price).toFixed(2);render();els.status.textContent='LATEST SNAPSHOT LOADED';}catch(e){SNAP=window.GOLD_ORACLE_EMBEDDED_SNAPSHOT;render();els.status.textContent='UI READY · LIVE SNAPSHOT NOT CONNECTED';els.marketStatus.textContent='MANUAL PRICE MODE';els.scanMeta.textContent='Upload the complete GitHub build + Actions workflow for automatic news/market updates';els.warning.textContent='The app interface is working. Live news, candles and real-outcome learning will start once data/snapshot.json is generated by the GitHub Action.';console.warn('Using embedded fallback snapshot:',e);}finally{els.refresh.disabled=false;els.refresh.textContent='REFRESH NOW';}}
+function render(){if(!SNAP)return; const d=ev(),p=plan();
+  const t=new Date(SNAP.generatedAt);els.updated.textContent=Number.isNaN(t.getTime())?'Not generated yet':t.toLocaleString();
+  els.marketStatus.textContent=SNAP.market?.available?`LIVE ${SNAP.market.provider} · ${SNAP.market.symbol} · ${fmt(SNAP.market.price)}`:`MANUAL PRICE MODE · ${SNAP.market?.reason||'Market feed unavailable'}`;
+  els.scanMeta.textContent=`${SNAP.news?.articleCount||0} unique stories · ${SNAP.news?.deepReadCount||0} deep-read · feeds ${SNAP.news?.feedSuccessCount||0}/${SNAP.news?.feedTotal||0}`;
+  els.decision.textContent=p.decision;els.decision.dataset.state=p.decision.includes('BUY')?'buy':p.decision.includes('SELL')?'sell':'wait';
+  const s=Number(d.stabilizedDirectionalScore??d.directionalScore)||0;els.bias.textContent=s>15?'BULLISH GOLD':s<-15?'BEARISH GOLD':'MIXED / WAIT';
+  els.confidence.textContent=pct(d.calibratedConfidence??d.confidence);els.conflict.textContent=pct(d.conflict);
+  els.entry.textContent=fmt(p.entry);els.stop.textContent=fmt(p.stop);els.tp1.textContent=fmt(p.tp1);els.tp2.textContent=fmt(p.tp2);els.tp3.textContent=fmt(p.tp3);els.range.textContent=Number.isFinite(p.low)?`${fmt(p.low)} – ${fmt(p.high)}`:'—';
+  els.warning.textContent=p.note||'No qualified prediction right now.';els.reversal.textContent=d.flipBlocked?'REVERSAL DETECTED — waiting for second confirmation before flipping bias':'Anti-flip gate: stable';
+  renderChart(p,d);renderNews();renderProof();renderLearning();renderOutcomes();
+}
+function renderChart(p,d){const bars=(SNAP.market?.bars||[]).filter(b=>[b.open,b.high,b.low,b.close,b.time].every(Number.isFinite));const price=Number(els.price.value);const trade=['BUY LIMIT','SELL LIMIT'].includes(p.decision)&&Number.isFinite(price);if(!bars.length&&!trade){els.chart.innerHTML='<div class="empty">Live candles appear after the Twelve Data GitHub secret is added. News scanning still works; enter a manual XAUUSD price for a projection.</div>';return;}
+  const W=1100,Hh=560,L=64,R=150,T=30,B=48; const shown=bars.slice(-120); const xs=shown.length?760/Math.max(1,shown.length):8; const values=shown.flatMap(b=>[b.high,b.low]); if(trade)values.push(price,p.entry,p.stop,p.tp1,p.tp2,p.tp3,p.low,p.high); let min=Math.min(...values),max=Math.max(...values);if(!Number.isFinite(min)||min===max){min=price*.99;max=price*1.01;}const pad=(max-min)*.10;min-=pad;max+=pad;const y=v=>T+(max-v)/(max-min)*(Hh-T-B);let candle='';shown.forEach((b,i)=>{const x=L+i*xs+xs*.5,up=b.close>=b.open,c=up?'#27d3b2':'#ff5968',yo=y(b.open),yc=y(b.close),yh=y(b.high),yl=y(b.low);candle+=`<line x1="${x}" y1="${yh}" x2="${x}" y2="${yl}" stroke="${c}" stroke-width="1"/><rect x="${x-Math.max(1,xs*.28)}" y="${Math.min(yo,yc)}" width="${Math.max(2,xs*.56)}" height="${Math.max(1,Math.abs(yc-yo))}" fill="${c}"/>`;});
+  const level=(name,v,color,dash='')=>Number.isFinite(v)?`<line x1="${L}" y1="${y(v)}" x2="${W-R}" y2="${y(v)}" stroke="${color}" stroke-width="1.4" ${dash?`stroke-dasharray="${dash}"`:''} opacity=".75"/><text x="${W-R+10}" y="${y(v)+5}" fill="${color}" font-size="14" font-weight="800">${name} ${fmt(v)}</text>`:'';
+  let overlay='';if(trade){const isBuy=p.decision==='BUY LIMIT',stroke=isBuy?'#31d69b':'#ff5968';const x0=shown.length?L+shown.length*xs:L+60,xE=W-R+30,x1=xE+45,x2=xE+85,x3=xE+125;overlay=`<path d="M ${x0} ${y(price)} C ${x0+25} ${y(price)}, ${xE-20} ${y(p.entry)}, ${xE} ${y(p.entry)} S ${x1-15} ${y(p.tp1)}, ${x1} ${y(p.tp1)} S ${x2-15} ${y(p.tp2)}, ${x2} ${y(p.tp2)} S ${x3-10} ${y(p.tp3)}, ${x3} ${y(p.tp3)}" fill="none" stroke="${stroke}" stroke-width="4" stroke-linecap="round"/><circle cx="${xE}" cy="${y(p.entry)}" r="6" fill="#f5c85b"/>`+level('NOW',price,'#55a7ff','3 5')+level('ENTRY',p.entry,'#f5c85b')+level('INVALID',p.stop,'#ff5968','5 5')+level('TP1',p.tp1,'#31d69b','6 5')+level('TP2',p.tp2,'#31d69b','6 5')+level('TP3',p.tp3,'#31d69b','6 5');}
+  const st=SNAP.market?.stats||{}; const zones=level('RESIST',Number(st.resistance),'#b087ff','8 7')+level('SUPPORT',Number(st.support),'#b087ff','8 7');
+  els.chart.innerHTML=`<svg viewBox="0 0 ${W} ${Hh}" preserveAspectRatio="none" role="img" aria-label="XAUUSD candles and prediction path"><rect width="100%" height="100%" fill="#070b12"/>${candle}${zones}${overlay}<text x="${L}" y="22" fill="#a7b0c0" font-size="15">XAUUSD · 5m actual candles · ${H}H prediction</text></svg>`;
+}
+function renderNews(){const a=SNAP.news?.articles||[];els.news.innerHTML=a.slice(0,35).map(x=>{const score=Number(x.weightedScore)||0,cls=score>.12?'bull':score<-.12?'bear':'neutral',label=cls==='bull'?'GOLD +':cls==='bear'?'GOLD −':'NEUTRAL',u=safeUrl(x.url);const body=`<div class="storyTop"><span class="pill ${cls}">${label}</span>${x.deepRead?'<span class="pill deep">DEEP READ</span>':''}${x.official?'<span class="pill official">OFFICIAL</span>':''}</div><b>${esc(x.title)}</b><small>${esc(x.domain)} · ${esc(x.queryId)} · score ${score.toFixed(2)}</small>`;return u?`<a class="story" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${body}</a>`:`<div class="story">${body}</div>`;}).join('')||'<div class="muted">No news snapshot yet.</div>';}
+function renderProof(){const p=SNAP.proof||{};els.proof.innerHTML=`<div class="proofGrid"><div><small>Resolved forecasts</small><b>${p.resolved||0}</b></div><div><small>Direction hit rate</small><b>${pct(p.directionHitRate)}</b></div><div><small>Entered plans</small><b>${p.entered||0}</b></div><div><small>TP1+ after entry</small><b>${pct(p.tp1PlusRate)}</b></div><div><small>Stop rate after entry</small><b>${pct(p.stopRate)}</b></div><div><small>Avg MAE / MFE</small><b>${fmt(p.avgMAE)} / ${fmt(p.avgMFE)}</b></div></div><p class="mini">These are real resolved forecasts only. Ambiguous same-candle TP/stop cases are excluded from learning.</p>`;}
+function renderLearning(){const L=SNAP.learning||{};const rows=(L.features||[]).slice(0,10);els.learning.innerHTML=`<div class="learnHead"><b>${L.totalLearned||0}</b><span>resolved forecasts fed into learning</span></div>${rows.map(r=>`<div class="learnRow"><span>${esc(r.name)}</span><small>${r.samples} samples · ${pct(r.hitRate)}</small><b>${r.active?Number(r.multiplier).toFixed(2)+'×':'warming up'}</b></div>`).join('')||'<div class="muted">Learning activates per feature after 12 resolved samples.</div>'}`;}
+function renderOutcomes(){const rows=SNAP.recentOutcomes||[];els.outcomes.innerHTML=rows.slice(0,15).map(f=>`<div class="outcome"><b>${f.horizon}H · ${esc(f.decision)}</b><span class="${f.outcome?.directionCorrect?'good':'bad'}">${esc(f.outcome?.status||'—')}</span><small>${new Date(f.createdAt).toLocaleString()} · move ${Number(f.outcome?.finalMovePct||0).toFixed(2)}% · MAE ${fmt(f.outcome?.mae)} · MFE ${fmt(f.outcome?.mfe)}</small></div>`).join('')||'<div class="muted">No forecast has reached its horizon yet.</div>';}
+$$('[data-h]').forEach(b=>b.addEventListener('click',()=>{H=Number(b.dataset.h);$$('[data-h]').forEach(x=>x.classList.toggle('active',x===b));render();}));
+[els.price,els.spread].forEach(x=>x.addEventListener('change',()=>SNAP&&render()));els.refresh.addEventListener('click',load);load();
+
+</script></body></html>
