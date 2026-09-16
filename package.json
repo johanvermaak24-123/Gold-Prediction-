@@ -1,0 +1,8 @@
+{
+  "name":"gold-oracle-github",
+  "version":"2.0.0",
+  "private":true,
+  "description":"GitHub Pages + GitHub Actions XAUUSD news prediction and real-outcome learning engine",
+  "engines":{"node":">=20"},
+  "scripts":{"update":"node scripts/update-data.js","audit":"node scripts/audit-runner.js"}
+}

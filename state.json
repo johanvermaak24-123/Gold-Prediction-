@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "createdAt": null,
+  "learning": {"features":{},"sources":{},"horizons":{},"totalLearned":0,"lastUpdated":null},
+  "history": [],
+  "stability": {"1":{},"3":{},"6":{}},
+  "lastRun": null
+}

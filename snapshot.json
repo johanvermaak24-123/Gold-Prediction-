@@ -1,0 +1,10 @@
+{
+  "version":"2.0.0",
+  "generatedAt":null,
+  "githubOnly":true,
+  "market":{"available":false,"provider":"Twelve Data","symbol":"XAU/USD","price":null,"updatedAt":null,"reason":"First GitHub Action has not run yet.","stats":{},"bars":[]},
+  "news":{"feedSuccessCount":0,"feedTotal":0,"errors":[],"articleCount":0,"deepReadCount":0,"articles":[]},
+  "horizons":{"1":{"evidence":{},"plan":{"decision":"WAIT"}},"3":{"evidence":{},"plan":{"decision":"WAIT"}},"6":{"evidence":{},"plan":{"decision":"WAIT"}}},
+  "proof":{"resolved":0,"entered":0,"directionHitRate":null,"tp1PlusRate":null,"stopRate":null,"avgMAE":0,"avgMFE":0},
+  "learning":{"totalLearned":0,"features":[],"sources":[],"horizons":{}},"recentOutcomes":[],"activeForecasts":[]
+}
